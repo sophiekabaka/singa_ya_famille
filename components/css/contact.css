@@ -1,0 +1,170 @@
+
+/*****************nav bar******************/
+.navbar.navbar-expand-lg {
+    background-color: black !important;
+}
+.navbar.navbar-expand-lg .nav-link {
+    color: white !important;
+}
+.navbar img {
+    height: 120px;
+    width: auto;
+    margin-right: 10px;
+}
+.navbar .nav-link {
+    color: white;
+    font-size: 25px;
+    margin-right: 30px;
+}
+h5 {
+    transition:transform 0.2s ease-in-out;
+    font-weight: bold;
+}
+h5:hover {
+    transform: translateY(-5px);
+}
+/******************BODY**************/
+body{
+background-color: rgba(134, 208, 157, 0.774) !important;
+}
+/********************TEXT**********************/
+h2{
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 0.1em !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    font-size: 40px !important;
+}
+.curved-underline{
+    position: relative !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: inline-flex !important;
+    margin: 0 auto !important; /* Centers the element horizontally */
+}
+.curved-underline::after{
+    content: "" !important;
+    position: absolute !important;
+    bottom: 2px !important; /* Adjust the value to control the distance of the underline from the text */
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 70% !important; /* Adjust the value to control the width of the curved underline */
+    height: 3px !important; /* Adjust the value to control the thickness of the curved underline */
+    background-color: #000 !important; /* Adjust the color as desired */
+    border-radius: 70% !important;
+}
+h3{
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 0.1em !important;  
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+}
+p{
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 0.1em !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+/********************ICONS**********************/
+.icons{
+    border: 1px solid black;
+    text-align: center;
+    height: fit-content;
+    background-color:azure;
+ 
+}
+.bi-envelope-fill {
+    color: rgb(0, 4, 255);
+    font-size: 30px
+}
+.bi-geo-alt-fill {
+    color: red;
+    font-size: 30px
+}
+.bi-instagram{
+    color: orangered;
+    font-size: 30px;
+    margin: 10px;
+}
+.bi-facebook{
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+}
+.fa-tiktok{
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+}
+.icon-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
+.icon-text-wrapper i {
+    margin-right: 10px; 
+}
+/*****************************************
+      footer
+*****************************************/
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .footer h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-icons {
+    margin-top: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .icon img {
+    width: 35px;
+    height: 24px;
+    vertical-align: middle;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .donate-button {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .donate-button:hover {
+    background-color: #cc0000;
+  }
